@@ -1,0 +1,157 @@
+@import url('../fonts/agency-fb_[allfont.net].ttf');
+@import url('../fonts/agency-fb-bold_[allfont.net].ttf');
+
+.body1 {
+    background-image: url(coverr.jpg);
+    min-height: 0px;
+}
+
+.live-stats-navbar {
+    padding: 0;
+}
+
+
+
+/**************
+ * SUB NAVBAR *
+ **************/
+.sub-navbar nav ul {
+    background: var(--clr-yellow);
+}
+
+.sub-navbar nav ul li {
+    margin-left: 30px !important;
+    padding: 5px;
+}
+
+.sub-navbar nav ul li a {
+    color: var(--clr-white-high);
+    transition: all 0.4s ease;
+    text-decoration: none;
+    border-radius: 15px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+}
+
+.sub-navbar nav ul li:hover,
+li:active {
+    background: var(--clr-ink-blue);
+    transition: 0.5s all ease;
+}
+
+
+/**************
+ * | END SUB NAVBAR *
+ **************/
+
+
+
+/****************
+ * MINI BUTTONS *
+ ****************/
+
+.mini-buttons nav ul li {
+    margin-left: 30px !important;
+    background: var(--clr-brown);
+    padding: 5px;
+}
+
+.mini-buttons nav ul li a {
+    color: var(--clr-white-high);
+    transition: all 0.4s ease;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.mini-buttons nav ul li:hover,
+li:active {
+    background: var(--clr-ink-blue);
+    transition: 0.5s all ease;
+}
+
+/****************
+ * MINI BUTTONS *
+ ****************/
+/************************
+ * STATISTICS CONTAINER *
+ ************************/
+
+.stat-container {
+    font-family: 'agency-fb-bold', sans-serif;
+}
+
+.alive-kills-players-list {
+    height: 25px;
+    margin: 0 2px;
+}
+
+/* live match kills */
+.dynamic-list,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #000;
+}
+
+.dynamic-list {
+    position: relative;
+}
+
+.match-kills {
+    background: var(--clr-black-low);
+    padding: 5px;
+    color: var(--clr-white-high);
+}
+
+.div-whitespace {
+    background: var(--clr-white-high);
+    z-index: -11;
+}
+
+.player-kill-card {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(2, 25, 62, 1) 10%, rgba(4, 131, 157, 1) 100%, rgba(9, 9, 121, 1) 100%);
+    z-index: -1;
+    border: none;
+    padding: 5px;
+}
+
+.player-img {
+    position: absolute;
+    bottom: -1vh;
+    z-index: 111;
+}
+
+.player-rank {
+    background: var(--clr-black-low);
+    padding: 5px;
+}
+
+.player-rank h3 {
+    color: var(--clr-white-high);
+}
+
+/************************
+ * END STATISTICS CONTAINER *
+ ************************/
+
+/* new table requirements */
+.ranking-table-head tr {
+    background: rgb(77, 120, 16);
+    background: linear-gradient(90deg, rgba(77, 120, 16, 1) 0%, rgba(77, 120, 16, 1) 62%, rgba(140, 183, 54, 1) 88%);
+}
+
+.ranking-table-head tr th {
+    color: rgb(224, 231, 213);
+    font-size: 2rem;
+    border: 1px solid #fff;
+}
+
+.table-header-1 {
+    border: 12px solid #fff !important;
+    padding: 15px !important;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+}

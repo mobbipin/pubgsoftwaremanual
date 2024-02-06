@@ -1,0 +1,41 @@
+.point-container {
+    background: rgb(77, 120, 16);
+    background: linear-gradient(0deg, rgba(77, 120, 16, 0.9738095067128414) 43%, rgba(0, 0, 0, 0.38277309214701505) 100%);
+}
+
+.point-border {
+    border: 3px solid rgb(204, 226, 174);
+}
+
+body{
+    background-color: #282828;
+}
+.heading{
+    color:black;
+    font-size: 70px;
+    font-weight: bold;
+    padding-top:20px;
+    text-align: center;
+}
+.row1{
+    justify-content: space-between;
+}
+.card1{
+    background-image: linear-gradient( #282828 , #8cb736 );
+    text-align: center;
+    margin-left:10px;
+    margin-top: 50px;
+}
+.span1{
+    font-size: 80px;
+    font-weight: bold;
+}
+.rank{
+    font-size: 23px;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.452);
+    background-color: #8cb736;
+    text-align: center;
+    margin-left: -15px;
+    margin-right: -15px;
+}

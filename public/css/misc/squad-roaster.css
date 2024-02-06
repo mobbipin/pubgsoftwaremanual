@@ -1,0 +1,49 @@
+@import url('../fonts/agency-fb_[allfont.net].ttf');
+@import url('../fonts/agency-fb-bold_[allfont.net].ttf');
+
+.body1 {
+    background-image: url(coverr.jpg);
+    min-height: 0px;
+}
+
+.squad-roaster-card {
+    background: rgb(77, 120, 16);
+    background: linear-gradient(0deg, rgba(77, 120, 16, 1) 20%, rgba(140, 183, 54, 1) 100%);
+    border: 1px solid #fff;
+    padding: 15px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+
+.roaster-card-2 {
+    border: 1px solid #fff;
+    padding: 5px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+
+.roaster-card-3 {
+    border: 3px solid #fff;
+    padding: 15px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+
+.squad-roaster-name {
+    background: rgb(77, 120, 16);
+    background: linear-gradient(0deg, rgba(77, 120, 16, 1) 0%, rgba(77, 120, 16, 1) 62%, rgba(140, 183, 54, 1) 88%);
+}
+
+.squad-roaster-card h2 {
+    font-family: 'agency-fb', 'Sarpanch', sans-serif;
+    color: rgb(80, 109, 29);
+    font-weight: 600;
+}
+
+.squad-img {
+    background: #333;
+    width: 100%;
+    background-position: stretch;
+    border-top-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+}

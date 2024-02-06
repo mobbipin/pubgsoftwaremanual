@@ -1,0 +1,113 @@
+body{
+    background-color: #282828;
+}
+
+.heading1{
+    color:black;
+    font-size: 70px;
+    font-weight: bolder;
+    padding-top:20px;
+    margin-left:-15px
+}
+
+.span1{
+    color:#151722;
+    font-size: 40px;
+}
+.row1st{
+    justify-content: space-between;
+}
+
+.menu{
+    font-size: 10px;
+    color:#151722;
+}
+
+.ranking{
+    justify-content: space-between;
+}
+.colrank2{
+    background-image: linear-gradient( to right , #8cb736 , #4d7810);
+    text-align: center;
+}
+
+.colrank21{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.colrank22{
+    background-color: #151722;
+    color:#4d7810;
+    font-size: 25px;
+    font-weight: bold;
+}
+.row2nd{
+    justify-content: space-evenly;
+    border-bottom: 5px solid #282828;
+}
+
+
+.cont1{
+    background-image: linear-gradient( #8cb736 , #4d7810);
+    color:white;
+    border:1px solid rgba(255, 255, 255, 0.527);
+    height:306px;
+}
+.rank1{
+    font-size: 40px;
+    font-weight: bold;
+    color:#151722;
+    margin: 0px 0px 0px;
+}
+.img11{
+    margin-right: -10px;
+    position: relative;
+
+    height: 175px;
+}
+.img12{
+    margin-right:-30px;
+    height: 175px;
+    position: relative;
+
+}
+.img13{
+    position: relative;
+    z-index: 2;
+    height: 175px;
+}
+.img14{
+    z-index: 1;
+    margin-left: -50px;
+    position: relative;
+    height: 175px;
+}
+.teamname{
+    background-color: #151722;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #4d7810;
+    margin: 0px 0px 0px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    margin-left:-15px;
+    margin-right:-15px;
+    margin-bottom: -20px;
+    border-top:1px solid rgba(255, 255, 255, 0.527);
+}
+
+.rowpoints{
+    margin-top: -20px;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+.rowfooter{
+    background-image: linear-gradient(to right, #8cb736 , #2828287e);
+    border:1px solid rgba(255, 255, 255, 0.527);
+    font-size: 20px;
+    font-weight: bold;
+}

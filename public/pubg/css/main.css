@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Poppins&family=Sarpanch&display=swap');
+@import url('../fonts/agency-fb_[allfont.net].ttf');
+@import url('../fonts/agency-fb-bold_[allfont.net].ttf');
+/* 
+        font-family: 'Inter',
+        sans-serif;
+    
+        font-family: 'Open Sans',
+        sans-serif;
+    
+        font-family: 'Poppins',
+        sans-serif;
+    
+        font-family: 'Sarpanch',
+        sans-serif
+*/
+
+/*****************
+ * ROOT ELEMENTS *
+ *****************/
+:root {
+    /* colors */
+    --clr-black-high: #151722;
+        --clr-black-low: #282828;
+    --clr-black-matte: #402e32;
+    --clr-white-high: #ffffff;
+    --clr-white-low: #dfe0df;
+    --clr-brown: #5b4217;
+    --clr-cadet-blue: #ADBAC3;
+    --clr-ink-blue: #006b60;
+    --clr-yellow: #e4a101;
+    --clr-green-light: #8cb736;
+        --clr-green-dark: #4d7810;
+
+    /* fonts family*/
+    --font-default: 'agency-fb', 'Sarpanch', sans-serif;
+        --font-default-bold: 'agency-fb-bold', sans-serif;
+
+    /* page margins */
+    --page-margin-top: 50px;
+        --page-margin-bottom: 50px;
+}
+
+/*****************
+ * | ROOT ELEMENTS *
+ *****************/
+
+.body1 {
+    font-family: var(--font-default);
+    background-image: url(cover.jpg);
+    background-size: cover;
+    min-height: 700px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-fluid {
+    padding: 0px 0px;
+    margin: 0;
+}
+.header {
+    opacity: 0.9;
+    background-color: var(--clr-black-high);
+    color: var(--clr-white-high);
+}
+.navbar {
+    padding: 15px 0px 10px 54px;
+    list-style: none;
+
+}
+.nav-link {
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-link:hover {
+    color: var(--clr-black-high);
+    background-color: var(--clr-yellow);
+    border-radius: 5px;
+}
+.item1 {
+    margin-left: 7rem;
+    color: var(--clr-white-high);
+
+}
+
+.item2 {
+    margin-left: 5rem;
+    color: var(--clr-white-high);
+
+}
+.item3 {
+    margin-left: 25rem;
+}
+.row {
+    margin: 0 15px;
+}
+.col1 {
+    margin-top: 8rem;
+    margin-left: 12rem;
+}
+h1 {
+    font-size: 60px;
+    color: var(--clr-white-high);
+    font-weight: bold;
+}
+.heading {
+    color: var(--clr-yellow);
+}
+p {
+    padding-top: 12px;
+    padding-bottom: 15px;
+    color: var(--clr-white-low);
+}
+.button1 {
+    color: var(--clr-black-high);
+    background-color: var(--clr-yellow);
+    border: none;
+    padding: 10px 20px 5px 20px;
+}
+h5 {
+    font-weight: bold;
+}
+.button1:hover {
+    color: var(--clr-white-high);
+}
+
+/* select */
+.select-box {
+    padding: 15px;
+    margin-left: 40%;
+    width: 275px;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border: 1px solid rgba(128, 128, 128, 0.596);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.players-textarea {
+    border: 1px solid rgba(128, 128, 128, 0.596);
+    border-radius: 5px;
+    font-size: 1rem;
+}

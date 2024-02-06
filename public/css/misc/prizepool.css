@@ -1,0 +1,30 @@
+.battle-title {
+    background: linear-gradient(90deg, rgba(77, 120, 16, 1) 0%, rgba(77, 120, 16, 1) 62%, rgba(140, 183, 54, 1) 88%);
+    border: 2px solid rgb(184, 218, 136);
+    padding: 2px;
+}
+
+.battle-heading {
+    background: rgb(77, 120, 16);
+    background: linear-gradient(90deg, rgba(77, 120, 16, 1) 0%, rgba(77, 120, 16, 1) 62%, rgba(140, 183, 54, 1) 88%);
+}
+
+.prizepool {
+    background: rgb(77, 120, 16);
+    background: linear-gradient(0deg, rgba(77, 120, 16, 1) 0%, rgba(77, 120, 16, 1) 62%, rgba(140, 183, 54, 1) 88%);
+}
+
+.ranking-table {
+    background: rgb(77, 120, 16);
+    background: linear-gradient(0deg, rgba(77, 120, 16, 1) 0%, rgba(77, 120, 16, 1) 62%, rgba(140, 183, 54, 1) 88%);
+    border: 3px solid rgb(204, 226, 174);
+}
+
+.table-row {
+    border-bottom: 3px solid rgb(204, 226, 174);
+}
+
+.ranking-footer {
+    padding: 0 85px;
+    margin-right: 15px;
+}

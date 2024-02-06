@@ -1,0 +1,535 @@
+/********************
+ * ENTER TOURNAMENT *
+ ********************/
+body {
+    overflow-x: hidden;
+}
+
+.bg-image {
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-size: contain !important;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+}
+
+.tournament-text {
+    position: absolute;
+    top: 30vh;
+    right: 4vw;
+    z-index: 111;
+}
+
+.container-fluid {
+    padding: 0px 0px;
+    margin: 0;
+}
+
+.header {
+    opacity: 0.9;
+    background-color: var(--clr-black-high);
+    color: var(--clr-white-high);
+}
+
+.navbar {
+    padding: 15px 0px 10px 54px;
+    list-style: none;
+
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: var(--clr-black-high);
+    background-color: var(--clr-yellow);
+    border-radius: 5px;
+}
+
+.item1 {
+    margin-left: 7rem;
+    color: var(--clr-white-high);
+}
+
+.item2 {
+    margin-left: 5rem;
+    color: var(--clr-white-high);
+
+}
+
+.item3 {
+    margin-left: 25rem;
+}
+
+.row1 {
+    margin: 0 15px;
+    justify-content: center;
+}
+
+.col1 {
+    margin-top: 8rem;
+}
+
+.head1 {
+    color: var(--clr-white-high);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.para1 {
+    padding-top: 12px;
+    color: var(--clr-white-high);
+    text-align: center;
+}
+
+.tournaments {
+    color: var(--clr-yellow);
+    font-weight: bold;
+}
+
+/* modal button */
+.modal-footer {
+    margin-left: 100px;
+}
+
+
+/*****************
+ * | END SLIDER *
+ *****************/
+.container {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.cont1 {
+    text-align: center;
+
+}
+
+.btn21 {
+    font-size: 20px;
+    background-color: var(--clr-yellow);
+    color: var(--clr-black-high);
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.btn21:hover {
+    background-color: var(--clr-black-low);
+    color: var(--clr-white-high);
+}
+
+
+.card1 {
+    margin-right: 5px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid rgba(39, 38, 38, 0.089);
+}
+
+.card1:hover {
+    box-shadow: 1px 0px 4px 0.5px rgba(128, 128, 128, 0.247);
+    cursor: pointer;
+}
+
+.cont2 {
+    padding: 10px 20px;
+}
+
+.cardpara {
+    color: var(--clr-yellow);
+    margin: 0 0 3px;
+    padding-top: 5px;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+.bi {
+    float: right;
+    font-size: 20px;
+    background-color: var(--clr-yellow);
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+
+.btn22 {
+    font-size: 13px;
+    background-color: var(--clr-yellow);
+    color: var(--clr-black-high);
+    font-weight: bold;
+    padding: 8px 15px;
+}
+
+.btn22:hover {
+    background-color: var(--clr-black-high);
+    color: var(--clr-white-high);
+}
+
+ul.breadcrumb {
+    margin-bottom: -75px;
+    font-size: 16px;
+    font-weight: 600;
+    list-style: none;
+    background-color: var(--clr-white-high);
+}
+
+ul.breadcrumb li a {
+    color: var(--clr-black-high);
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: var(--clr-black-low);
+    text-decoration: underline;
+}
+
+.tournament-card {
+    color: var(--clr-black-high) !important;  
+}
+
+.card-header {
+    z-index: 1111;
+}
+
+/* Tournament card */
+
+
+/********************
+ * ENTER TOURNAMENT *
+ ********************/
+
+
+
+
+
+/******************
+ *ADD TOURNAMENT *
+ ******************/
+
+.header {
+    opacity: 0.9;
+    background-color: var(--clr-black-high);
+    color: var(--clr-white-high);
+}
+
+.navbar {
+    padding: 15px 0px 10px 54px;
+    list-style: none;
+
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: var(--clr-black-high);
+    background-color: var(--clr-yellow);
+    border-radius: 5px;
+}
+
+.item1 {
+    margin-left: 7rem;
+    color: var(--clr-white-high);
+}
+
+.item2 {
+    margin-left: 5rem;
+    color: var(--clr-white-high);
+
+}
+
+.item3 {
+    margin-left: 25rem;
+}
+
+
+.row1 {
+    margin: 0 15px;
+    justify-content: center;
+}
+
+.col1 {
+    margin-top: 8rem;
+}
+
+.head1 {
+    font-size: 60px;
+    color: var(--clr-white-high);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.para1 {
+    padding-top: 12px;
+    padding-bottom: 15px;
+    color: var(--clr-white-high);
+    text-align: center;
+}
+
+.tournaments {
+    color: var(--clr-yellow);
+    font-weight: bold;
+}
+
+.row2 {
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.col2 {
+    text-align: center;
+}
+
+.button1 {
+    color: var(--clr-black-high);
+    background-color: var(--clr-yellow);
+    border: none;
+    padding: 10px 20px 5px 20px;
+}
+
+
+.button1:hover {
+    color: var(--clr-white-high);
+}
+
+.head5 {
+    font-weight: bold;
+}
+
+.addcontainer {
+    box-shadow: 0px 1px 4px 0.5px grey;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+
+
+input {
+    width: 330px;
+    padding: 10px 20px;
+    border: 1px solid rgba(128, 128, 128, 0.596);
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+
+
+.row5 {
+    padding: 10px 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: right;
+    padding-bottom: 25px;
+}
+
+.btn51 {
+    background-color: var(--clr-danger);
+    color: var(--clr-white-high);
+    padding: 8px 20px;
+    font-size: large;
+}
+
+.btn51:hover {
+    background-color: var(--clr-black-low);
+    color: var(--clr-white-high);
+}
+
+.btn52 {
+    background-color: var(--clr-ink-blue);
+    color: var(--clr-white-high);
+    padding: 8px 25px;
+    font-size: large;
+}
+
+.btn52:hover {
+    background-color: var(--clr-black-low);
+    color: var(--clr-white-high);
+}
+
+
+/* add tournament */
+.add-tournament {
+    margin-top: 200px;
+    z-index: 111;
+    background: var(--clr-white-high);
+    border: none;
+}
+
+/*add to tournament card */
+.add-card {
+    border: none;
+}
+
+/* edit button */
+.bi-pencil-square {
+    margin: 0;
+}
+
+/******************
+ *END ADD TOURNAMENT *
+ ******************/
+
+
+
+
+/*******************
+ * EDIT TOURMANENT *
+ *******************/
+
+
+.container-fluid {
+    padding: 0px 0px;
+    margin: 0;
+}
+
+.header {
+    opacity: 0.9;
+    background-color: var(--clr-black-high);
+    color: var(--clr-white-high);
+}
+
+.navbar {
+    padding: 15px 0px 10px 54px;
+    list-style: none;
+
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: var(--clr-black-high);
+    background-color: var(--clr-yellow);
+    border-radius: 5px;
+}
+
+.item1 {
+    margin-left: 7rem;
+    color: var(--clr-white-high);
+}
+
+.item2 {
+    margin-left: 5rem;
+    color: var(--clr-white-high);
+
+}
+
+.item3 {
+    margin-left: 25rem;
+}
+
+
+.row1 {
+    margin: 0 15px;
+    justify-content: center;
+}
+
+.col1 {
+    margin-top: 8rem;
+}
+
+.head1 {
+    font-size: 60px;
+    color: var(--clr-white-high);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.para1 {
+    padding-top: 12px;
+    padding-bottom: 15px;
+    color: var(--clr-white-high);
+    text-align: center;
+}
+
+.tournaments {
+    color: var(--clr-yellow);
+    font-weight: bold;
+}
+
+
+
+.addcontainer {
+    box-shadow: 0px 1px 4px 0.5px grey;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+
+}
+
+.addtournament {
+    padding: 15px 20px;
+}
+
+
+
+
+.row3 {
+    justify-content: space-between;
+    padding: 10px 15px;
+
+
+}
+
+input {
+    width: 330px;
+    padding: 10px 20px;
+    border: 1px solid rgba(128, 128, 128, 0.596);
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+
+
+.row5 {
+    padding: 10px 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: right;
+    padding-bottom: 25px;
+}
+
+.btn51 {
+    background-color: var(--clr-danger);
+    color: var(--clr-white-high);
+    padding: 8px 20px;
+    font-size: large;
+}
+
+.btn51:hover {
+    background-color: var(--clr-black-low);
+    color: var(--clr-white-high);
+}
+
+.btn52 {
+    background-color: var(--clr-ink-blue);
+    color: var(--clr-white-high);
+    padding: 8px 25px;
+    font-size: large;
+}
+
+.btn52:hover {
+    background-color: var(--clr-black-low);
+    color: var(--clr-white-high);
+}
+
+
+
+/*******************
+ *END EDIT TOURMANENT *
+ *******************/

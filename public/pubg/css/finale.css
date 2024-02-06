@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Poppins&display=swap');
+
+/*****************
+ * ROOT ELEMENTS *
+ *****************/
+:root {
+    /* colors */
+    --clr-black-high: #1C1421D9;
+    --clr-black-low: #434143;
+    --clr-black-matte: #402e32;
+    --clr-white-high: #ffffff; 
+    --clr-white-low: #dfe0df;
+    --clr-brown: #5b4217;
+    --clr-cadet-blue: #ADBAC3; 
+    --clr-ink-blue: #006b60;
+    --clr-yellow: #e4a101; 
+
+    /* fonts family*/
+    --font-family: 'Inter',Sans-serif; 
+
+    /* page margins */
+    --page-margin-top: 50px; 
+    --page-margin-bottom: 50px; 
+}
+/*****************
+ * | ROOT ELEMENTS *
+ *****************/
+
+
+ /*****************
+ * | NAVBAR *
+ *****************/
+
+.body1{
+    font-family: var(--font-family);
+    background-image: url(image.jpg);
+    background-size: cover;
+   min-height: 200px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container-fluid{
+      padding:0px 0px;
+      margin:0;
+  }
+  .header{
+      opacity: 0.9;
+      background-color: var(--clr-black-high);
+      color: var(--clr-white-high);
+  }
+.navbar{
+    padding: 15px 0px 10px 54px;
+    list-style: none; 
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color:var(--clr-black-high);
+    background-color: var( --clr-yellow);
+    border-radius: 5px;
+}
+.item1{
+    margin-left: 7rem;
+    color: var(--clr-white-high);
+}
+.item2{
+    margin-left: 5rem;
+    color: var(--clr-white-high);
+}
+.item3{
+    margin-left: 25rem;
+}
+
+ /*****************
+ * |END NAVBAR *
+ *****************/
+
+  /*****************
+ * | HEADER *
+ *****************/
+.row1{
+    margin:0 15px;
+    justify-content: center;
+}
+.col1{
+    margin-top: 8rem;
+}
+  .head1{
+    font-size: 50px;
+    color: var(--clr-white-high);
+    font-weight: bolder;
+    text-align: center;
+  }
+  .para1{
+      padding-top: 12px;
+      padding-bottom: 15px;
+      color: var(--clr-yellow);
+      text-align: center;
+      font-weight: bolder;
+  }
+  .row2{
+      margin:0 15px;
+      padding-bottom: 15px;
+      justify-content: space-between;
+  }
+  .col2:hover{
+      color:var(--clr-yellow);
+      cursor: pointer;
+
+  }
+  .btn1{
+      background-color: var(--clr-white-low);
+      color:var(--clr-black-high);
+      font-weight: bold;
+      font-size: 14px;
+  }
+  .bt1:hover{
+      background-color: var(--clr-black-high);
+      color:var(--clr-white-high);
+  }
+
+   /*****************
+ * | END HEADER *
+ *****************/
+
+ /*****************
+ * | ADD PLAYER *
+ *****************/
+  .row3{
+      font-size: 12px;
+      font-weight: bold;
+      padding-top: 15px;
+      justify-content: space-evenly;
+      cursor: pointer;
+  }
+  .col3:hover{
+      color: var(--clr-yellow);
+  }
+  .row4{
+      padding-top: 30px;
+      justify-content: space-evenly;
+  }
+  .btn4{
+      background-color: var(--clr-yellow);
+      font-weight: bold;
+  }
+  .btn4:hover{
+      background-color:var(--clr-black-high);
+      color:var(--clr-white-high)
+  }
+   /*****************
+ * | END ADD PLAYER *
+ *****************/
+.row5{
+    padding-top: 15px;
+    justify-content: space-between;
+    
+}
+ .col5{
+     background-color: #e4a0013b;
+     font-size: 14px;
+     padding:10px;
+ }
+ .col51{
+     padding: 5px;
+ }
+ .btn5{
+     border:1px solid black;
+ }
+ .btn5:hover{
+     background-color: var(--clr-black-high);
+     color:var(--clr-white-high)
+ }
+ .bi1{
+     background-color: #108E0E;
+     color:white;
+     padding:5px 8px;
+     border-radius: 3px;
+     cursor: pointer;
+
+ }
+ .bi2{
+     background-color: #E4A101;
+     color:black;
+     padding:5px 8px;
+     border-radius: 3px;
+     cursor: pointer;
+
+
+ }
+ .bi3{
+     background-color: #100E8E;
+     color:white;
+     padding:5px 8px; 
+     border-radius: 3px;
+     cursor: pointer;
+
+  
+ }
+ .bi4{
+    background-color: #E40101;
+    color:white;
+    padding:5px 8px; 
+    border-radius: 3px;
+    cursor: pointer;
+}
+

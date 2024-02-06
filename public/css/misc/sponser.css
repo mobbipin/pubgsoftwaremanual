@@ -1,0 +1,75 @@
+@import url('../fonts/agency-fb_[allfont.net].ttf');
+@import url('../fonts/agency-fb-bold_[allfont.net].ttf');
+
+.body1 {
+    background-image: url(coverr.jpg);
+    min-height: 0px;
+}
+
+.sponser-card {
+    background: rgb(77, 120, 16);
+    background: linear-gradient(0deg, rgba(77, 120, 16, 1) 20%, rgba(140, 183, 54, 1) 100%);
+}
+
+.sponser-name {
+    width: 120%;
+    background: rgb(77, 120, 16);
+    background: linear-gradient(0deg, rgba(77, 120, 16, 1) 0%, rgba(77, 120, 16, 1) 62%, rgba(140, 183, 54, 1) 88%);
+}
+
+.sponser-card h2 {
+    font-family: 'agency-fb', 'Sarpanch', sans-serif;
+    color: rgb(154, 212, 53);
+    font-weight: 600;
+}
+
+body{
+    background-color: #282828;
+
+}
+section{
+    padding-top: 10%;
+
+}
+
+.row{
+    margin: 0 6px;
+}
+
+.rowcard{
+    justify-content: space-evenly;
+}
+
+.colcard{
+background-image: linear-gradient( #8cb736 , #4d7810);
+padding-left:-15px;
+padding-right:-15px;
+text-align: center;
+padding-bottom: 15px;
+
+}
+
+.img1{
+    height:200px;
+    width:200px;
+    margin-top:25%;
+    margin-bottom: 10%;
+}
+.partner{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rowcard1{
+    justify-content: space-evenly;
+}
+
+.colcard1{
+    height:50px;
+    background-image: linear-gradient( #8cb736 , #4d7810);
+    color: #8cb736 ;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}

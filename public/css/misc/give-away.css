@@ -1,0 +1,24 @@
+@import url('../fonts/agency-fb_[allfont.net].ttf');
+@import url('../fonts/agency-fb-bold_[allfont.net].ttf');
+
+.body1 {
+    background-image: url(coverrr.jpg) !important;
+    min-height: 0 !important;
+}
+
+.giveaway-container {
+    font-family: 'agency-fb-bold';
+    background: url('../images/bg.png');
+    z-index: -1;
+}
+
+.give-away-list li {
+    line-height: 15px;
+    list-style-type: none;
+}
+
+.cash-img {
+    height: 200px;
+    width: 375px;
+
+}

@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Poppins&family=Sarpanch&display=swap');
+
+/* @import url('../fonts/agency-fb_[allfont.net].ttf'); */
+
+
+/* @import url('../fonts/agency-fb-bold_[allfont.net].ttf'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coda&display=swap');
+
+/* Bebas Neue */
+
+
+/* 
+        font-family: 'Inter',
+        sans-serif;
+    
+        font-family: 'Open Sans',
+        sans-serif;
+    
+        font-family: 'Poppins',
+        sans-serif;
+    
+        font-family: 'Sarpanch',
+        sans-serif
+*/
+
+
+/*****************
+ * ROOT ELEMENTS *
+ *****************/
+
+:root {
+    /* colors */
+    --clr-black-high: #151722;
+    --clr-black-low: #282828;
+    --clr-black-matte: #402e32;
+    --clr-white-high: #ffffff;
+    --clr-white-low: #dfe0df;
+    --clr-brown: #5b4217;
+    --clr-cadet-blue: #ADBAC3;
+    --clr-ink-blue: #006b60;
+    --clr-yellow: #e4a101;
+    --clr-green-light: #8cb736;
+    --clr-green-extra-light: #8cb736bb;
+    --clr-green-dark: #4d7810;
+    /* fonts family*/
+    --font-default: 'agency-fb', 'Sarpanch', sans-serif;
+    --font-default-bold: 'agency-fb-bold', sans-serif;
+    /* page margins */
+    --page-margin-top: 50px;
+    --page-margin-bottom: 50px;
+}
+
+
+/*******************
+ * FONT ASSIGNMENT *
+ *******************/
+
+*,
+body {
+    font-family: 'coda', sans-serif !important;
+}
+
+.font-agency {
+    font-family: 'agency-fb', sans-serif !important;
+}
+
+.font-coda {
+    font-family: 'coda', sans-serif !important;
+}
+
+.font-agency-bold {
+    font-family: 'agency-fb-bold', sans-serif !important;
+}
+
+
+/****************
+ * BUTTON COLOR *
+ ****************/
+
+.btn-yellow {
+    background: var(--clr-yellow) !important;
+    color: #fff !important;
+}
+
+.btn-green-light {
+    background: var(--clr-green-light) !important;
+    color: #fff !important;
+}
+
+.btn-green-dark {
+    background: #4d7810 !important;
+    color: #fff !important;
+}
+
+.btn-turquoise {
+    background: var(--clr-ink-blue) !important;
+    color: #fff !important;
+}
+
+
+/****************
+ *END BUTTON COLOR *
+ ****************/
+
+
+/****************
+ * BACKGROUND *
+ ****************/
+
+.bg-yellow {
+    background: var(--clr-yellow) !important;
+}
+
+.bg-green-light {
+    background: var(--clr-green-light) !important;
+}
+
+.bg-green-dark {
+    background: #4d7810 !important;
+}
+
+.bg-turquoise {
+    background: var(--clr-ink-blue) !important;
+}
+
+.bg-gray {
+    background: var(--clr-black-low);
+}
+
+.bg-green-extra-light {
+    background: var(--clr-green-extra-light) !important;
+}
+
+.bg-black-high {
+    background: var(--clr-black-high) !important;
+}
+
+.bg-transparent {
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+
+
+/****************
+ *END BACKGROUND *
+ ****************/
+
+
+/****************
+ * BACKGROUND *
+ ****************/
+
+.clr-yellow {
+    color: var(--clr-yellow) !important;
+}
+
+.clr-green-light {
+    color: var(--clr-green-light) !important;
+}
+
+.clr-green-dark {
+    color: #4d7810 !important;
+}
+
+.clr-turquoise {
+    color: var(--clr-ink-blue) !important;
+}
+
+.clr-gray {
+    color: var(--clr-black-low);
+}
+
+.clr-black-high {
+    color: var(--clr-black-high) !important;
+}
+
+
+/****************
+ *END BACKGROUND *
+ ****************/
+
+
+/*****************
+ * | ROOT ELEMENTS *
+ *****************/
+
+.bg-image {
+    font-family: var(--font-default);
+    background-size: contain !important;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+}
+
+.container-fluid {
+    padding: 0px 0px;
+    margin: 0;
+}
+
+.header {
+    opacity: 0.9;
+    background-color: var(--clr-black-high);
+    color: var(--clr-white-high);
+}
+
+.navbar {
+    padding: 15px 0px 10px 54px;
+    list-style: none;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: var(--clr-black-high);
+    background-color: var(--clr-yellow);
+    border-radius: 5px;
+}
+
+.navbar-top {
+    font-family: var(--font-default);
+}
+
+.item1 {
+    margin-left: 7rem;
+    color: var(--clr-white-high);
+}
+
+.item2 {
+    margin-left: 5rem;
+    color: var(--clr-white-high);
+}
+
+.item3 {
+    margin-left: 25rem;
+}
+
+.row {
+    margin: 0 15px;
+}
+
+.col1 {
+    margin-top: 8rem;
+    margin-left: 12rem;
+}
+
+h1 {
+    font-size: 60px;
+    color: var(--clr-white-high);
+    font-weight: bold;
+}
+
+.heading {
+    color: var(--clr-yellow);
+}
+
+p {
+    padding-top: 12px;
+    padding-bottom: 15px;
+    color: var(--clr-white-low);
+}
+
+.button1 {
+    color: var(--clr-black-high);
+    background-color: var(--clr-yellow);
+    border: none;
+    padding: 10px 20px 5px 20px;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+.button1:hover {
+    color: var(--clr-white-high);
+}
+
+
+/* sub header button */
+
+.sub-btns {
+    padding: 15px;
+    background: var(--clr-ink-blue);
+    color: var(--clr-white-low);
+    margin-right: 10px;
+    font-size: 18px !important;
+}
+
+
+/* select */
+
+.select-box {
+    padding: 15px;
+    margin-left: 40%;
+    width: 275px;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border: 1px solid rgba(128, 128, 128, 0.596);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.players-textarea {
+    border: 1px solid rgba(128, 128, 128, 0.596);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.mt-100 {
+    margin-top: 100px !important;
+}
+
+
+/* curved path */
+
+.clip-path {
+    clip-path: polygon(5% 0, 95% 0, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%, 0 5%);
+}
+
+.clip-path-top {
+    clip-path: polygon(5% 0, 95% 0, 100% 5%, 100% 80%, 100% 100%, 0 100%, 0% 80%, 0 5%);
+}
+
+.clip-path-bottom {
+    clip-path: polygon(0 0, 100% 0, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%, 0 0);
+}
+
+
+/****************
+ * FRAME HEIGHT *
+ ****************/
+
+.frame-height {
+    position: relative;
+    overflow: hidden !important;
+    height: 970px !important;
+    width: 1640px !important;
+    outline: none;
+    border: none;
+    /* background: #8cb736; */
+}
+
+
+/****************
+ * |END FRAME HEIGHT *
+ ****************/
